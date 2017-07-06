@@ -6,15 +6,38 @@
 body {
   background: rgb(248,253,255);
 }
-h2, h3, h4 {
+h1, h2, h3, h4 {
   font-weight: 100;
 }
+header h1 {
+  text-align: center;
+  font-size: 50px;
+}
+header h2 {
+  text-align: center;
+  font-size: 35px;
+  padding-top: 25px;
+}
+header, section {
+  padding: 50px 10px;
+}
 
-/* ================================= TOP FIVE GRAPH ================================= */
-
-.topFiveGraph {
-  border: 1px solid red;
-  background-color: white;
+/* ================================= GRAPHS ================================= */
+.graphSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background: rgb(245, 245, 245);
+}
+.graphWrapper {
+  border-radius: 4px;
+  width: 300px;
+  padding: 5px 10px;
+  margin: 10px;
+}
+.graphWrapper h3 {
+  text-align: center;
 }
 
 /* ================================= CURRENCY LIST ================================= */

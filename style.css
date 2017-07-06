@@ -1,0 +1,63 @@
+* {
+    font-family: Helvetica, Arial;
+    padding: 0;
+    margin: 0;
+}
+body {
+  background: rgb(248,253,255);
+}
+h2, h3, h4 {
+  font-weight: 100;
+}
+
+/* ================================= TOP FIVE GRAPH ================================= */
+
+.topFiveGraph {
+  border: 1px solid red;
+  background-color: white;
+}
+
+/* ================================= CURRENCY LIST ================================= */
+
+.currencyList, .lastUpdates, .loading {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.loading {
+  padding-top: 200px;
+}
+.currencyCard {
+  border: 1px solid rgb(132,174,190);
+  background-color: rgb(150,206,223);
+  border-radius: 4px;
+  width: 300px;
+  padding: 5px 10px;
+  margin: 10px;
+}
+.green {
+  color: rgb(33, 136, 17);
+  font-weight: 700;
+}
+.red {
+  color: rgb(255, 71, 74);
+  font-weight: 700;
+}
+.cardHeading {
+  font-weight: 500;
+}
+.rank {
+  font-weight: 900;
+}
+.price {
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+}
+.decription {
+  padding: 10px 5px;
+}
+.decriptionHeader {
+  margin-top: 5px;
+}
